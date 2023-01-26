@@ -50,9 +50,6 @@ class ageCardTest {
 
     @Test
     void getRequiredResources() {
-        /*resources.add(wood);
-        resources.add(bricks);
-        resources.add(stone);*/
         resourcesTest.add(wood);
         resourcesTest.add(bricks);
         resourcesTest.add(stone);

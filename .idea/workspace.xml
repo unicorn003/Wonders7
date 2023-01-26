@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I renewed the test class Wonder, because from last time I added some functions">
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on WonderTest class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Wonder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Classes/WonderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Classes/WonderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ageCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ageCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,55 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WonderTest.getLocalStage">
+  <component name="RunManager" selected="JUnit.WonderTest.countWinningPoint">
+    <configuration name="WonderTest.countMilitaryForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
+      <option name="METHOD_NAME" value="countMilitaryForce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WonderTest.countWinningPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
+      <option name="METHOD_NAME" value="countWinningPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WonderTest.fight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Classes" />
+      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
+      <option name="METHOD_NAME" value="fight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WonderTest.getLocalStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <extension name="coverage">
@@ -81,22 +131,6 @@
       <option name="PACKAGE_NAME" value="Classes" />
       <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
       <option name="METHOD_NAME" value="getLocalStage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WonderTest.getResourceLocalStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="getResourceLocalStage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,45 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WonderTest.isTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="isTaken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WonderTest.nextStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="nextStage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WonderTest.countWinningPoint" />
+        <item itemvalue="JUnit.WonderTest.fight" />
+        <item itemvalue="JUnit.WonderTest.countMilitaryForce" />
         <item itemvalue="JUnit.WonderTest.getLocalStage" />
         <item itemvalue="JUnit.WonderTest.getStartingResource" />
-        <item itemvalue="JUnit.WonderTest.getResourceLocalStage" />
-        <item itemvalue="JUnit.WonderTest.nextStage" />
-        <item itemvalue="JUnit.WonderTest.isTaken" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,7 @@
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
       <workItem from="1674738510659" duration="18913000" />
-      <workItem from="1674762724511" duration="2604000" />
+      <workItem from="1674762724511" duration="6217000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -293,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674763505056</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="I am working on WonderTest class">
+      <created>1674765478969</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674765478969</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +327,8 @@
     <MESSAGE value="I finished implementation of countWinningPoint. Is everything wright will see at testing" />
     <MESSAGE value="I finished implementation of fight method. It rests only unit tests" />
     <MESSAGE value="I renewed the test class Wonder, because from last time I added some functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="I renewed the test class Wonder, because from last time I added some functions" />
+    <MESSAGE value="I am working on WonderTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="I am working on WonderTest class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

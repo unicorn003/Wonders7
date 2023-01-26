@@ -33,7 +33,7 @@ public class Wonder {
         myMilitaryTokens.add(m);
     }
     public void addAgeCard(ageCard card){
-        if (this.IsEnoughResources(card.requiredResources))
+        if (card.requiredResources.equals(null) || this.IsEnoughResources(card.requiredResources))
             myCards.add(card);
         else return;
     }
@@ -128,7 +128,9 @@ public class Wonder {
                 result += (((CommercialStructures) card.getEffects()).CountCategoryPoints(myCards));
             else if(card.getEffects() instanceof ScientificStructures)
                 result += (((ScientificStructures) card.getEffects()).ReturnGreenPoints(myCards));
-            else result += (card.getEffects().getWinningPoints()) ;
+            else if(card.getEffects() instanceof CivilianStructures)
+                result += (card.getEffects().getWinningPoints());
+            else result += 0 ;
         }
         return result;
     }

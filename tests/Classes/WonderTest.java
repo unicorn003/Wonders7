@@ -22,23 +22,24 @@ class WonderTest {
     MyStage s2 =  new MyStage(2, 4, resourcesNeedS2);
     MyStage s3 =  new MyStage(3,8, resourcesNeedS3);
     Wonder Alexandria = new Wonder("Alexandria", true, glass,s1,s2,s3);
+    militaryToken point1 = new militaryToken(1);
+    ArrayList<militaryToken> testMilitary = new ArrayList<>(List.of(point1));
+    ArrayList<Resource> testEmptyList = new ArrayList<Resource>();
+    militaryToken point5 = new militaryToken(5);
+    militaryToken point3 = new militaryToken(3);
+    militaryToken pointMinus = new militaryToken(-1);
+    Treasure treasure1 = new Treasure(1);
+    Treasure treasure11 = new Treasure(1);
+    Treasure treasure111 = new Treasure(1);
+    Treasure treasure3 = new Treasure(3);
+
+    ageCard stable = new ageCard(3, "2 shields", "Small factory", "Red", 2, true,testEmptyList , null);
+    ageCard barrack = new ageCard(3, "2 shields", "Small factory", "Red", 2, true, testEmptyList, null);
 
     @Test
     void makeTaken() {
         Alexandria.MakeTaken();
         assertEquals(true, Alexandria.isTaken());
-    }
-
-    @Test
-    void addMilitaryToken() {
-    }
-
-    @Test
-    void addAgeCard() {
-    }
-
-    @Test
-    void addTreasure() {
     }
 
     @Test
@@ -63,10 +64,15 @@ class WonderTest {
 
     @Test
     void countMilitaryForce() {
+        Alexandria.addAgeCard(stable);
+        Alexandria.addAgeCard(barrack);
+        assertEquals(4, Alexandria.countMilitaryForce());
     }
 
     @Test
     void fight() {
+        Alexandria.fight(0,3);
+        assertEquals(List.of(pointMinus), Alexandria.myMilitaryTokens);
     }
 
     @Test
@@ -87,5 +93,9 @@ class WonderTest {
 
     @Test
     void countWinningPoint() {
+        Alexandria.addMilitaryToken(point1);
+        Alexandria.addTreasure(treasure3);
+        //assertEquals(List.of(treasure3), Alexandria.myTreasures);
+        assertEquals(2, Alexandria.countWinningPoint());
     }
 }
