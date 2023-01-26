@@ -40,9 +40,9 @@ public class Wonder {
     public void addTreasure(Treasure t){
         myTreasures.add(t);
     }
-    List<ageCard> myCards = new ArrayList<ageCard>();
-    List<militaryToken> myMilitaryTokens = new ArrayList<militaryToken>();
-    List<Treasure> myTreasures = new ArrayList<Treasure>();
+    ArrayList<ageCard> myCards = new ArrayList<ageCard>();
+    ArrayList<militaryToken> myMilitaryTokens = new ArrayList<militaryToken>();
+    ArrayList<Treasure> myTreasures = new ArrayList<Treasure>();
 
     public String getName() {
         return name;
@@ -78,21 +78,25 @@ public class Wonder {
     public int countWinningPoint(){
         int result = 0;
         for (militaryToken mil : myMilitaryTokens) {
-            result += mil.getWinningPoints();
+            result += (mil.getWinningPoints());
         }
         int treasAmount = 0;
         for (Treasure treas : myTreasures) {
-            treasAmount += treas.getWinningPoints();
+            treasAmount += (treas.getWinningPoints());
         }
         result += treasAmount/3;
         if (stage1.isBuild())
-            result += stage1.getVictoryPoints();
+            result += (stage1.getVictoryPoints());
         if (stage2.isBuild())
-            result += stage2.getVictoryPoints();
+            result += (stage2.getVictoryPoints());
         if (stage3.isBuild())
-            result += stage3.getVictoryPoints();
+            result += (stage3.getVictoryPoints());
         for (ageCard card : myCards){
-
+            if (card.getEffects() instanceof CommercialStructures)
+                result += (((CommercialStructures) card.getEffects()).CountCategoryPoints(myCards));
+            else if(card.getEffects() instanceof ScientificStructures)
+                result += (((ScientificStructures) card.getEffects()).ReturnGreenPoints(myCards));
+            else result += (card.getEffects().getWinningPoints()) ;
         }
         return result;
     }
