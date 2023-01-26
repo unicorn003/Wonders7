@@ -5,6 +5,7 @@ import Classes.ageCard;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +15,8 @@ class ageCardTest {
     Resource wood = new Resource("raw", "Wood");
     Resource stone = new Resource("raw", "Stone");
     Resource bricks = new Resource("raw", "Bricks");
-    ArrayList<Resource> resources = new ArrayList<Resource>();
+    ArrayList<Resource> resources = new ArrayList<Resource>(List.of(wood, bricks, stone) );
+    ArrayList<Resource> resourcesTest = new ArrayList<Resource>();
     ageCard factory = new ageCard(3, "Factory", "Small factory", "Blue", 2, true, resources, coins);
     @Test
     void getAge() {
@@ -48,13 +50,17 @@ class ageCardTest {
 
     @Test
     void getRequiredResources() {
-        resources.add(wood);
+        /*resources.add(wood);
         resources.add(bricks);
-        resources.add(stone);
-        assertEquals();
+        resources.add(stone);*/
+        resourcesTest.add(wood);
+        resourcesTest.add(bricks);
+        resourcesTest.add(stone);
+        assertEquals(resourcesTest, factory.getRequiredResources());
     }
 
     @Test
     void getDescription() {
+        assertEquals("Small factory",factory.getDescription());
     }
 }
