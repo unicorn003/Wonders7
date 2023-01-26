@@ -39,7 +39,6 @@ public class Wonder {
     }
     public void addTreasure(Treasure t){
         myTreasures.add(t);
-
     }
     List<ageCard> myCards = new ArrayList<ageCard>();
     List<militaryToken> myMilitaryTokens = new ArrayList<militaryToken>();
@@ -59,9 +58,6 @@ public class Wonder {
 
     public MyStage getLocalStage() {
         return localStage;
-    }
-    public void setLocalStage(MyStage localStage) {
-        this.localStage = localStage;
     }
     public void fight(){
 
@@ -95,6 +91,9 @@ public class Wonder {
             result += stage2.getVictoryPoints();
         if (stage3.isBuild())
             result += stage3.getVictoryPoints();
+        for (ageCard card : myCards){
+
+        }
         return result;
     }
     public boolean IsEnoughResources(List<Resource> resourcesWeNeed){

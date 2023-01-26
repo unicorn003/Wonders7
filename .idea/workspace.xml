@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on testing for be sure, that everything works clear">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Now I am doing refactoring and implementing the last class">
       <change beforePath="$PROJECT_DIR$/src/Classes/Wonder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/WonderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/WonderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +140,7 @@
       <workItem from="1674216823908" duration="2478000" />
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
-      <workItem from="1674738510659" duration="13914000" />
+      <workItem from="1674738510659" duration="14465000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -214,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674752529318</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Now I am doing refactoring and implementing the last class">
+      <created>1674753813830</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674753813830</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I have copied all our work to this new project" />
     <MESSAGE value="I am working on testing for be sure, that everything works clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am working on testing for be sure, that everything works clear" />
+    <MESSAGE value="Now I am doing refactoring and implementing the last class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now I am doing refactoring and implementing the last class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
