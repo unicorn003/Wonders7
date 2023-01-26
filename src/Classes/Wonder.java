@@ -15,15 +15,15 @@ public class Wonder {
     private MyStage stage2;
     private MyStage stage3;
     public Wonder(String n, boolean s, Resource r, MyStage s1, MyStage s2, MyStage s3){
-        availableResources.add(r);
-        localStage = s1;
-        name = n;
-        isTaken = false;
-        side = s;
-        startingResource = r;
-        stage1 = s1;
-        stage2 = s2;
-        stage3 = s3;
+       this.availableResources.add(r);
+        this.localStage = s1;
+        this.name = n;
+        this.isTaken = false;
+        this.side = s;
+        this.startingResource = r;
+        this.stage1 = s1;
+        this.stage2 = s2;
+        this.stage3 = s3;
     }
 
     public void MakeTaken(){

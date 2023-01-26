@@ -34,11 +34,5 @@ class WonderTest {
     void nextStage() {
     }
 
-    @org.junit.jupiter.api.Test
-    void isEnoughResources() {
-    }
 
-    @org.junit.jupiter.api.Test
-    void resourcesNeed() {
-    }
 }
