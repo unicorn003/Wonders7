@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on testing for be sure, that everything works clear">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ageCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ageCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,51 +69,52 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommercialStructuresTest.countCategoryPoints">
-    <configuration name="CommercialStructuresTest.countCategoryPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ageCardTest.getEffects">
+    <configuration name="ageCardTest.getAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommercialStructuresTest" />
-      <option name="METHOD_NAME" value="countCategoryPoints" />
+      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
+      <option name="METHOD_NAME" value="getAge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScientificStructuresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ageCardTest.getCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScientificStructuresTest.TestCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Wonders7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
-      <option name="METHOD_NAME" value="TestCounter" />
+      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
+      <option name="METHOD_NAME" value="getCategory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScientificStructuresTest.returnGreenPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ageCardTest.getEffects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
-      <option name="METHOD_NAME" value="returnGreenPoints" />
+      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
+      <option name="METHOD_NAME" value="getEffects" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScientificStructuresTest.returnGreenPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ageCardTest.getMinimumPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
-      <option name="METHOD_NAME" value="returnGreenPoints" />
+      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
+      <option name="METHOD_NAME" value="getMinimumPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ageCardTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
+      <option name="METHOD_NAME" value="getName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommercialStructuresTest.countCategoryPoints" />
-        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints" />
-        <item itemvalue="JUnit.ScientificStructuresTest" />
-        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints (1)" />
-        <item itemvalue="JUnit.ScientificStructuresTest.TestCounter" />
+        <item itemvalue="JUnit.ageCardTest.getEffects" />
+        <item itemvalue="JUnit.ageCardTest.getName" />
+        <item itemvalue="JUnit.ageCardTest.getCategory" />
+        <item itemvalue="JUnit.ageCardTest.getMinimumPlayers" />
+        <item itemvalue="JUnit.ageCardTest.getAge" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +141,7 @@
       <workItem from="1674216823908" duration="2478000" />
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
-      <workItem from="1674738510659" duration="4796000" />
+      <workItem from="1674738510659" duration="6509000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -169,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674742101109</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I am working on testing for be sure, that everything works clear">
+      <created>1674744797768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674744797768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
