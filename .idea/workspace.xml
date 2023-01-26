@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on testing for be sure, that everything works clear">
+      <change afterPath="$PROJECT_DIR$/tests/MyStageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ageCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ageCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +69,12 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ageCardTest.getDescription">
-    <configuration name="ageCardTest.getCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyStageTest.getVictoryPoints">
+    <configuration name="MyStageTest.getVictoryPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ageCardTest" />
-      <option name="METHOD_NAME" value="getCategory" />
+      <option name="MAIN_CLASS_NAME" value="MyStageTest" />
+      <option name="METHOD_NAME" value="getVictoryPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyStageTest.getVictoryPoints" />
         <item itemvalue="JUnit.ageCardTest.getDescription" />
         <item itemvalue="JUnit.ageCardTest.getRequiredResources" />
         <item itemvalue="JUnit.ageCardTest.getEffects" />
         <item itemvalue="JUnit.ageCardTest.getName" />
-        <item itemvalue="JUnit.ageCardTest.getCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1674216823908" duration="2478000" />
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
-      <workItem from="1674738510659" duration="8439000" />
+      <workItem from="1674738510659" duration="9993000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674746484525</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I am working on testing for be sure, that everything works clear">
+      <created>1674748108035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674748108035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
