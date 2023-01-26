@@ -1,6 +1,6 @@
 package Classes;
 
-public abstract class Resource {
+public class Resource {
     private String category;
     private String name;
     public Resource(String c, String n){

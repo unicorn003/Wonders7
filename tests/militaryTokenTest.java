@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class EffectTest {
+class militaryTokenTest {
 
     militaryToken m = new militaryToken(3);
     @Test
@@ -13,11 +13,10 @@ class EffectTest {
 
     @Test
     void getName() {
-        assertEquals(m.getName(),"Effect");
+        assertEquals(m.getName(),"militaryToken");
     }
 
     @Test
     void getDescription() {
-        assertEquals(m.getDescription(), "test");
-    }
+        assertEquals(m.getDescription(), "Military Token");}
 }

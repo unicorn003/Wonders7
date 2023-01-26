@@ -10,9 +10,9 @@ public class ageCard {
     private int minimumPlayers;
     private boolean direction;
     protected List<Resource> requiredResources;
-    protected List<Effect> effects;
+    protected Effect effects;
 
-    public ageCard(int a, String n, String d, String c, int mp, boolean dir, List<Resource> r,List<Effect> ef){
+    public ageCard(int a, String n, String d, String c, int mp, boolean dir, List<Resource> r,Effect ef){
         age = a;
         name = n;
         description = d;
@@ -42,7 +42,7 @@ public class ageCard {
         return direction;
     }
 
-    public List<Effect> getEffects() {
+    public Effect getEffects() {
         return effects;
     }
 

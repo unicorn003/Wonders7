@@ -25,6 +25,7 @@ public class Wonder {
         stage2 = s2;
         stage3 = s3;
     }
+
     public void MakeTaken(){
         isTaken = true;
     }
@@ -38,6 +39,7 @@ public class Wonder {
     }
     public void addTreasure(Treasure t){
         myTreasures.add(t);
+
     }
     List<ageCard> myCards = new ArrayList<ageCard>();
     List<militaryToken> myMilitaryTokens = new ArrayList<militaryToken>();

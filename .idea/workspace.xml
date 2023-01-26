@@ -4,29 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classes/CivilianStructures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/CommercialStructures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Effect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/GUIParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/MyStage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/ScientificStructures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Treasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/ageCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/militaryToken.java" afterDir="false" />
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on testing for be sure, that everything works clear">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wonders7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Wonders7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ScientificStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ScientificStructures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Wonder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ageCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ageCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EffectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/militaryTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ScientificStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ScientificStructuresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KadovunzbqxP0UdeLghv89VcPh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,16 +42,102 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Wonders7/Wonders7/src",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Wonders7/Wonders7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Wonders7\Wonders7" />
+      <recent name="C:\Users\User\IdeaProjects\Wonders7\Wonders7\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Classes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ScientificStructuresTest.TestCounter">
+    <configuration name="ResourceTest.getCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourceTest" />
+      <option name="METHOD_NAME" value="getCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ResourceTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScientificStructuresTest.TestCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
+      <option name="METHOD_NAME" value="TestCounter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScientificStructuresTest.returnGreenPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
+      <option name="METHOD_NAME" value="returnGreenPoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="militaryTokenTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Wonders7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="militaryTokenTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ScientificStructuresTest.TestCounter" />
+        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints" />
+        <item itemvalue="JUnit.ResourceTest.getCategory" />
+        <item itemvalue="JUnit.ResourceTest.getName" />
+        <item itemvalue="JUnit.militaryTokenTest.getName" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,8 +146,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674216822243</updated>
-      <workItem from="1674216823908" duration="607000" />
+      <workItem from="1674216823908" duration="2478000" />
+      <workItem from="1674680684990" duration="1714000" />
+      <workItem from="1674728901668" duration="5458000" />
     </task>
+    <task id="LOCAL-00001" summary="I have copied all our work to this new project">
+      <created>1674217591970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674217591970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +173,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I have copied all our work to this new project" />
+    <MESSAGE value="I am working on testing for be sure, that everything works clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="I am working on testing for be sure, that everything works clear" />
   </component>
 </project>
