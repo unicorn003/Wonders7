@@ -76,22 +76,22 @@ public class Wonder {
         militaryToken point3 = new militaryToken(3);
         militaryToken point1 = new militaryToken(1);
         militaryToken pointMinus = new militaryToken(-1);
-        int yourShields = countMilitaryForce();
+        int yourShields = this.countMilitaryForce();
         if(yourShields < rightPlayer)
             myMilitaryTokens.add(pointMinus);
         if (yourShields < leftPlayer)
             myMilitaryTokens.add(pointMinus);
-        if (rightPlayer > rightPlayer && localStage.getAge() == 1 )
+        if (yourShields  > rightPlayer && localStage.getAge() == 1 )
             myMilitaryTokens.add(point1);
-        if (rightPlayer > leftPlayer && localStage.getAge() == 1 )
+        if (yourShields  > leftPlayer &&localStage.getAge() == 1 )
             myMilitaryTokens.add(point1);
-        if (rightPlayer > rightPlayer && localStage.getAge() == 2 )
+        if (yourShields  > rightPlayer && localStage.getAge() == 2 )
             myMilitaryTokens.add(point3);
-        if (rightPlayer > leftPlayer && localStage.getAge() == 2 )
+        if (yourShields  > leftPlayer && localStage.getAge() == 2 )
             myMilitaryTokens.add(point3);
-        if (rightPlayer > rightPlayer && localStage.getAge() == 3 )
+        if (yourShields  > rightPlayer && localStage.getAge() == 3 )
             myMilitaryTokens.add(point5);
-        if (rightPlayer > leftPlayer && localStage.getAge() == 3 )
+        if (yourShields > leftPlayer && localStage.getAge() == 3 )
             myMilitaryTokens.add(point5);
     }
     public Resource getStartingResource() {

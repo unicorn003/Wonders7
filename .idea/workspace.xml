@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on WonderTest class">
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on WonderTest class of testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/Wonder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Classes/WonderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Classes/WonderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ageCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ageCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WonderTest.countWinningPoint">
+  <component name="RunManager" selected="JUnit.WonderTest.fight">
     <configuration name="WonderTest.countMilitaryForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <extension name="coverage">
@@ -154,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WonderTest.countWinningPoint" />
         <item itemvalue="JUnit.WonderTest.fight" />
+        <item itemvalue="JUnit.WonderTest.countWinningPoint" />
         <item itemvalue="JUnit.WonderTest.countMilitaryForce" />
         <item itemvalue="JUnit.WonderTest.getLocalStage" />
         <item itemvalue="JUnit.WonderTest.getStartingResource" />
@@ -174,7 +173,7 @@
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
       <workItem from="1674738510659" duration="18913000" />
-      <workItem from="1674762724511" duration="6217000" />
+      <workItem from="1674762724511" duration="8906000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -302,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674765478969</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="I am working on WonderTest class of testing">
+      <created>1674769329360</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674769329360</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +334,8 @@
     <MESSAGE value="I finished implementation of fight method. It rests only unit tests" />
     <MESSAGE value="I renewed the test class Wonder, because from last time I added some functions" />
     <MESSAGE value="I am working on WonderTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am working on WonderTest class" />
+    <MESSAGE value="I am working on WonderTest class of testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="I am working on WonderTest class of testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
