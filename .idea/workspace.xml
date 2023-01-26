@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on testing for be sure, that everything works clear">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/CommercialStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/CommercialStructures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/ScientificStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ScientificStructures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommercialStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommercialStructuresTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ScientificStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ScientificStructuresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +72,12 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ScientificStructuresTest">
-    <configuration name="ResourceTest.getCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CommercialStructuresTest.countCategoryPoints">
+    <configuration name="CommercialStructuresTest.countCategoryPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResourceTest" />
-      <option name="METHOD_NAME" value="getCategory" />
+      <option name="MAIN_CLASS_NAME" value="CommercialStructuresTest" />
+      <option name="METHOD_NAME" value="countCategoryPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommercialStructuresTest.countCategoryPoints" />
+        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints" />
         <item itemvalue="JUnit.ScientificStructuresTest" />
         <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints (1)" />
-        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints" />
         <item itemvalue="JUnit.ScientificStructuresTest.TestCounter" />
-        <item itemvalue="JUnit.ResourceTest.getCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +143,7 @@
       <workItem from="1674216823908" duration="2478000" />
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
+      <workItem from="1674738510659" duration="3330000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674736146369</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I am working on testing for be sure, that everything works clear">
+      <created>1674738829274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674738829274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +187,8 @@
     <MESSAGE value="I have copied all our work to this new project" />
     <MESSAGE value="I am working on testing for be sure, that everything works clear" />
     <option name="LAST_COMMIT_MESSAGE" value="I am working on testing for be sure, that everything works clear" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

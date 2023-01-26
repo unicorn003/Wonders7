@@ -8,7 +8,7 @@ public class ScientificStructures extends Effect {
         super("ScientificStructures", "Scientific Structures", 1);
     }
     public int ReturnGreenPoints(ArrayList<ageCard> cards){
-        int result = 0;
+        //int result = 0;
         int Compass = 0;
         int Wheel = 0;
         int Stone = 0;
