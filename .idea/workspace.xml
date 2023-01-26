@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Now I am doing refactoring and implementing the last class" />
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Now I am doing refactoring and implementing the last class">
+      <change beforePath="$PROJECT_DIR$/src/Classes/GUIParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/GUIParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/IActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/IActions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +141,7 @@
       <workItem from="1674216823908" duration="2478000" />
       <workItem from="1674680684990" duration="1714000" />
       <workItem from="1674728901668" duration="7980000" />
-      <workItem from="1674738510659" duration="14844000" />
+      <workItem from="1674738510659" duration="15159000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -224,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674754466936</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Now I am doing refactoring and implementing the last class">
+      <created>1674754493208</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674754493208</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
