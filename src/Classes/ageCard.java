@@ -13,14 +13,14 @@ public class ageCard {
     protected Effect effects;
 
     public ageCard(int a, String n, String d, String c, int mp, boolean dir, List<Resource> r,Effect ef){
-        age = a;
-        name = n;
-        description = d;
-        category = c;
-        minimumPlayers = mp;
-        direction = dir;
-        requiredResources = r;
-        effects = ef;
+        this.age = a;
+        this.name = n;
+        this.description = d;
+        this.category = c;
+        this.minimumPlayers = mp;
+        this.direction = dir;
+        this.requiredResources = r;
+        this.effects = ef;
     }
     public int getAge() {
         return age;

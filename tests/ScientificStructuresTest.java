@@ -27,7 +27,7 @@ class ScientificStructuresTest {
         cards.add(firstStone);
         cards.add(firstCompass);
         cards.add(firstStone);
-        assertEquals(10 , ef2.ReturnGreenPoints(cards));
+        assertEquals(10, ef2.ReturnGreenPoints(cards));
     }
     @Test
     void TestCounter() {

@@ -13,17 +13,16 @@ public class ScientificStructures extends Effect {
         int Wheel = 0;
         int Stone = 0;
         for (ageCard card : cards){
-            if (card.getCategory() == "GreenCompass")
+            if (card.getCategory().equals("GreenCompass"))
                 Compass++;
-            if (card.getCategory() == "GreenWheel")
+            if (card.getCategory().equals("GreenWheel"))
                 Wheel++;
-            if (card.getCategory() == "GreenStone")
+            if (card.getCategory().equals("GreenStone"))
                 Stone++;
         }
-        int[] greens = {Compass,Wheel,Stone};
-        Arrays.sort(greens);
-        result += greens[0] * 7 + greens[0]*greens[0] + greens[1]*greens[1] + greens[2]*greens[2];
-        return result;
+        int[] greens = {Compass, Wheel, Stone};
+        return  (greens[0] * 7 + greens[0]*greens[0] + greens[1]*greens[1] + greens[2]*greens[2]);
+        //return result;
     }
     public int TestCounter(ArrayList<ageCard> cards){ // tested counter system, because previous method didn't work well
         int compass = 0;

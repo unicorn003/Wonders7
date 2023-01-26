@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CommercialStructures extends Effect{
     public CommercialStructures(int w, String c) {
         super("CommercialStructures", "Commercial Structures", w);
-        category = c;
+        this.category = c;
     }
     private String category;
     public int CountCategoryPoints(ArrayList<ageCard> cards){
