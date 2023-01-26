@@ -22,10 +22,12 @@ class MyStageTest {
 
     @Test
     void isBuild() {
+        assertEquals(false, stage.isBuild());
     }
 
     @Test
     void isEnoughResources() {
+
     }
 
     @Test
