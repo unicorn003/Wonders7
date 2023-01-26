@@ -12,8 +12,10 @@ class MyStageTest {
     Resource wood2 = new Resource("raw", "Wood");
     Resource glass = new Resource("rare", "Glass");
     Resource papyrus = new Resource("rare", "Papyrus");
+    Resource material = new Resource("rare", "Material");
     ArrayList<Resource> resourcesNeed = new ArrayList<Resource>(List.of(wood1, wood2, glass, papyrus));
     MyStage stage = new MyStage(2, 10, resourcesNeed);
+    ArrayList<Resource> available = new ArrayList<Resource>(List.of(wood1, wood2, glass, papyrus, material));
 
     @Test
     void getVictoryPoints() {
@@ -27,14 +29,18 @@ class MyStageTest {
 
     @Test
     void isEnoughResources() {
-
+        assertEquals(true, stage.IsEnoughResources(available));
     }
 
     @Test
     void resourcesNeed() {
+        ArrayList<Resource> test = new ArrayList<Resource>();
+        assertEquals(test, stage.resourcesNeed(available));
     }
 
     @Test
     void buildStage() {
+        stage.BuildStage(available);
+        assertEquals(true, stage.isBuild());
     }
 }
