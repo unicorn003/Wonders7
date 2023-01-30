@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Comments for militaryToken class">
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Comments for myStage class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/MyStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/MyStage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +144,7 @@
       <workItem from="1674738510659" duration="18913000" />
       <workItem from="1674762724511" duration="8906000" />
       <workItem from="1674815619296" duration="3070000" />
-      <workItem from="1675116313512" duration="3204000" />
+      <workItem from="1675116313512" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -334,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675119351240</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Comments for myStage class">
+      <created>1675120049862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675120049862</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +377,8 @@
     <MESSAGE value="Comments for ageCard class" />
     <MESSAGE value="Comments for Player class" />
     <MESSAGE value="Comments for militaryToken class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments for militaryToken class" />
+    <MESSAGE value="Comments for myStage class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments for myStage class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
