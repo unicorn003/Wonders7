@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on WonderTest class of testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/GUIParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/GUIParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Player.java" afterDir="false" />
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Comments for GUIParser">
+      <change beforePath="$PROJECT_DIR$/src/Classes/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,7 @@
       <workItem from="1674738510659" duration="18913000" />
       <workItem from="1674762724511" duration="8906000" />
       <workItem from="1674815619296" duration="3070000" />
-      <workItem from="1675116313512" duration="745000" />
+      <workItem from="1675116313512" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674769329360</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Comments for GUIParser">
+      <created>1675117297493</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675117297493</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +312,8 @@
     <MESSAGE value="I renewed the test class Wonder, because from last time I added some functions" />
     <MESSAGE value="I am working on WonderTest class" />
     <MESSAGE value="I am working on WonderTest class of testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am working on WonderTest class of testing" />
+    <MESSAGE value="Comments for GUIParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments for GUIParser" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
