@@ -1,6 +1,6 @@
 package Classes;
 
-public class Player {
+public class Player { //this
      private Wonder myWonder;
      private String name;
      public Player(Wonder w, String n){

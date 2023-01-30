@@ -6,16 +6,12 @@ import java.util.Scanner;
 
 public class GUIParser implements IActions {
 
+    // Initializes the GUI
+    public void init() {}
+
     @Override
-    public void init() {
-
-    }
-
     public String askName() {
-        System.out.println("What's your name ?");
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        return name;
+        return null;
     }
 
     @Override
@@ -23,37 +19,48 @@ public class GUIParser implements IActions {
 
     }
 
-    @Override
-    public void restart() {
+    // Sets the stage to not have a frame
+    private void setNoFrame() {}
 
+    // Loads the initial scenes for the GUI
+    private void loadInitialScenes() {}
+
+    // Loads the main scene for the GUI
+    private void loadMainScene() {}
+
+    // Private constructor for the singleton pattern
+    GUIParser() {}
+
+    // Returns the current scene being displayed
+    public static void getCurrentScene() {}
+
+    // Returns the GUI Parser
+    public static GUIParser getParser() {
+        return null;
     }
 
-    @Override
-    public void startAge(int age) {
+    // Starts the GUI with the given stage
+    public void start() {}
 
-    }
+    // Restarts the GUI
+    public void restart() {}
 
-    @Override
-    public void startTurn(int turn) {
+    // Starts the given age in the game
+    public void startAge(int age) {}
 
-    }
+    // Starts the given turn in the game
+    public void startTurn(int turn) {}
 
-    @Override
-    public void doEndOfTurn(int turn) {
+    // Performs end of turn actions for the given turn
+    public void doEndOfTurn(int turn) {}
 
-    }
+    // Performs end of age actions for the given age
+    public void doEndOfAge(int age) {}
 
-    @Override
-    public void doEndOfAge(int age) {
+    // Shows the game result
+    public void showGameResult() {}
 
-    }
-
-    @Override
-    public void showGameResult() {
-
-    }
-
-    @Override
+    // Returns a boolean indicating if the game should continue
     public boolean continueGame() {
         return false;
     }

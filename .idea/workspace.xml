@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="I am working on WonderTest class of testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Wonder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Wonder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Classes/WonderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Classes/WonderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/GUIParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/GUIParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,82 +70,52 @@
       <recent name="Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WonderTest.fight">
-    <configuration name="WonderTest.countMilitaryForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ScientificStructuresTest.returnGreenPoints">
+    <configuration name="CommercialStructuresTest.countCategoryPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="countMilitaryForce" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommercialStructuresTest" />
+      <option name="METHOD_NAME" value="countCategoryPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WonderTest.countWinningPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScientificStructuresTest.returnGreenPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="countWinningPoint" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScientificStructuresTest" />
+      <option name="METHOD_NAME" value="returnGreenPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WonderTest.fight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="militaryTokenTest.getDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="fight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="militaryTokenTest" />
+      <option name="METHOD_NAME" value="getDescription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WonderTest.getLocalStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="militaryTokenTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="getLocalStage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="militaryTokenTest" />
+      <option name="METHOD_NAME" value="getName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WonderTest.getStartingResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="militaryTokenTest.getWinningPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Wonders7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Classes" />
-      <option name="MAIN_CLASS_NAME" value="Classes.WonderTest" />
-      <option name="METHOD_NAME" value="getStartingResource" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="militaryTokenTest" />
+      <option name="METHOD_NAME" value="getWinningPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WonderTest.fight" />
-        <item itemvalue="JUnit.WonderTest.countWinningPoint" />
-        <item itemvalue="JUnit.WonderTest.countMilitaryForce" />
-        <item itemvalue="JUnit.WonderTest.getLocalStage" />
-        <item itemvalue="JUnit.WonderTest.getStartingResource" />
+        <item itemvalue="JUnit.ScientificStructuresTest.returnGreenPoints" />
+        <item itemvalue="JUnit.CommercialStructuresTest.countCategoryPoints" />
+        <item itemvalue="JUnit.militaryTokenTest.getDescription" />
+        <item itemvalue="JUnit.militaryTokenTest.getName" />
+        <item itemvalue="JUnit.militaryTokenTest.getWinningPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +144,8 @@
       <workItem from="1674728901668" duration="7980000" />
       <workItem from="1674738510659" duration="18913000" />
       <workItem from="1674762724511" duration="8906000" />
+      <workItem from="1674815619296" duration="3070000" />
+      <workItem from="1675116313512" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
