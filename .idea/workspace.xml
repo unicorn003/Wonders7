@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Comments for GUIParser">
-      <change beforePath="$PROJECT_DIR$/src/Classes/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Game.java" afterDir="false" />
+    <list default="true" id="c222d4d8-89f3-4a3e-9c77-074c31053aeb" name="Changes" comment="Comments for Player class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/militaryToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/militaryToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,7 @@
       <workItem from="1674738510659" duration="18913000" />
       <workItem from="1674762724511" duration="8906000" />
       <workItem from="1674815619296" duration="3070000" />
-      <workItem from="1675116313512" duration="1120000" />
+      <workItem from="1675116313512" duration="2905000" />
     </task>
     <task id="LOCAL-00001" summary="I have copied all our work to this new project">
       <created>1674217591970</created>
@@ -285,7 +286,49 @@
       <option name="project" value="LOCAL" />
       <updated>1675117297493</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Comments for Game class">
+      <created>1675117534682</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675117534682</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Comments for Effect class">
+      <created>1675117723993</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675117723993</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Comments for CommercialStructures class">
+      <created>1675117974491</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675117974491</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Comments for CivilianStructures class">
+      <created>1675118032842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675118032842</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Comments for ageCard class">
+      <created>1675118466071</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675118466071</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Comments for Player class">
+      <created>1675118530938</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675118530938</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +356,13 @@
     <MESSAGE value="I am working on WonderTest class" />
     <MESSAGE value="I am working on WonderTest class of testing" />
     <MESSAGE value="Comments for GUIParser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments for GUIParser" />
+    <MESSAGE value="Comments for Game class" />
+    <MESSAGE value="Comments for Effect class" />
+    <MESSAGE value="Comments for CommercialStructures class" />
+    <MESSAGE value="Comments for CivilianStructures class" />
+    <MESSAGE value="Comments for ageCard class" />
+    <MESSAGE value="Comments for Player class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments for Player class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Wonders7$ScientificStructuresTest_returnGreenPoints.ic" NAME="ScientificStructuresTest.returnGreenPoints Coverage Results" MODIFIED="1674738651884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
